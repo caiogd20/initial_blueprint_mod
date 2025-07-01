@@ -1,0 +1,10 @@
+{
+  "name": "initial-blueprint-mod",
+  "version": "1.0.0",
+  "title": "Blueprint Inicial",
+  "author": "Caiogd20",
+  "homepage": "",
+  "description": "Posiciona um blueprint predefinido em volta do jogador ao iniciar um novo mundo.",
+  "factorio_version": "2.0",
+  "dependencies": []
+}
