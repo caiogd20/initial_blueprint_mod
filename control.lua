@@ -2,7 +2,7 @@
 
 -- 1. Defina a string do seu blueprint aqui
 -- Substitua 'SUA_STRING_DE_BLUEPRINT_AQUI' pela string real do seu blueprint.
-local my_blueprint_string = "0eJx9j82OwjAMhN9lzgmiBQTNcV8DIZQGC6xt3KpJEVXVdydpEdrT3vwz/sYzoW4G6nqWCDOBXSsB5jwh8F1sk2dx7AgGHMlDQazPnQ2BfN2w3LW37sFCusCswHKjF0wxXxRIIkemlfffnULXhiRtJfulc73dHBTGtUjUG/fk1v32wx2vMvia+uSlkLa8PGmH2HqblTo4JnGkO+t+kd9ZApg/eRWe1IeFWp6K/bEqj/uyqnZVIja2ppQeP1/1PL8BTqdjag=="
+local my_blueprint_string = "0eJytl81qwzAQhN9lz1qQZEFqHfsapQcl3rQCRza2WpoavXvlxJRCD6WMj/4bvhlmZXahY/8m4xRTJr9QPA1pJv+00BxfUujXe/k6CnmKWS6kKIXLejXJOSbp+DV8hqnj+tlpkixUFMXUyQd5U54V5djLXW8c5pjjkFbF+tQqupJnV/5S5F7Oucr+UmhghY2hgRkABQ27MLCChl0YWIFxG7wDBV5LxlvFeLUZbyY7nMLtRmHxLBCJjcLgFICEhX3gSVjYxV45aBQBELgTwCEgdXKoB4ZT2BjwocBzwI8H/HTAT3z8z4W4sDCDgRkMyqBRBI0SwCHAGcBVgJsAj9Q/56FuGrf1xP/YZhS9yzTfJO2DcYfWHpxt26at+fbhKHW3ocfvt0v5AqQFX5A="
 
 -- 2. Função para posicionar o blueprint
 local function place_blueprint_around_player(event)
