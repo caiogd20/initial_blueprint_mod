@@ -6,10 +6,16 @@ local my_blueprint_string = "0eJytl81qwzAQhN9lz1qQZEFqHfsapQcl3rQCRza2WpoavXvlxJ
 
 -- 2. Função para posicionar o blueprint
 local function place_blueprint_around_player(event)
-    local player = game.get_player(event.player_index) -- Obtém o objeto do jogador que foi criado
+    local player = game.get_player(event.player_index)
 
     if player then
-        local player_position = player.position -- Posição atual do jogador (centro)
+        local player_position = player.position
+
+        -- VERIFICAÇÃO ADICIONAL:
+        if not my_blueprint_string or my_blueprint_string == "" then
+            game.print("Erro: A string do blueprint está vazia ou inválida!")
+            return -- Sai da função se a string for inválida
+        end
 
         -- Decodifica a string do blueprint
         local blueprint = game.decode_blueprint(my_blueprint_string)
