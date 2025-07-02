@@ -58,4 +58,4 @@ end
 script.on_event(defines.events.on_player_created, place_blueprint_around_player)
 
 -- Opcional: Adicionar um log para depuração ao carregar o mod
-game.print("Mod 'Blueprint Inicial' carregado!")
+--game.print("Mod 'Blueprint Inicial' carregado!")
