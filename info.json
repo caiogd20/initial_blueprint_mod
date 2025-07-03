@@ -4,7 +4,11 @@
   "title": "Blueprint Inicial",
   "author": "Caiogd20",
   "homepage": "",
-  "description": "Posiciona um blueprint predefinido em volta do jogador ao iniciar um novo mundo.",
+  "description": "Você é um enviado de uma civilização avançada, iniciando uma nova colônia com tecnologias e recursos essenciais para a exploração e expansão.",
   "factorio_version": "2.0",
-  "dependencies": []
+  "dependencies": 
+	[
+		"base >= 2.0.0",
+		"space-age >= 2.0.0"
+	]
 }
