@@ -9,6 +9,7 @@
   "dependencies": 
 	[
 		"base >= 2.0.0",
-		"space-age >= 2.0.0"
+		"space-age >= 2.0.0",
+    "Warehousing >= 1.0.0"
 	]
 }
