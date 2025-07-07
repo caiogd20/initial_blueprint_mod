@@ -1,7 +1,7 @@
 {
-  "name": "satrt-epace-age",
+  "name": "start-space-age",
   "version": "1.0.0",
-  "title": "satrt epace age",
+  "title": "start space age",
   "author": "Caiogd20",
   "homepage": "",
   "description": "Você é um enviado de uma civilização avançada, iniciando uma nova colônia com tecnologias e recursos essenciais para a exploração e expansão.",
@@ -9,7 +9,6 @@
   "dependencies": 
 	[
 		"base >= 2.0.0",
-		"space-age >= 2.0.0",
-    "Warehousing >= 1.0.0"
+		"space-age >= 2.0.0"
 	]
 }
